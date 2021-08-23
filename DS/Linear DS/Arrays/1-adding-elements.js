@@ -15,7 +15,9 @@ console.log(numbers);
 
 // iii) In the middle
 numbers.splice(2, 0, 'a', 'b');
-/*splice method takes 3 parameter
+/*
+splice method takes 3 parameter
+
 1st - start (it takes a number from where you want to add. so we want to add after 3 so our starting position basically the index of 3 is 2)
 
 2nd - deleteCount (it takes a number that how many elemets you want to remove, here we dont want to remove any elemet so simple pass 0 as a parameter)
